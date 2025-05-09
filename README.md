@@ -35,11 +35,7 @@
 
 <h2 align="center">📈 GitHub Activity</h2>
 
-<div align="center">
-  
-  ![GodEyeTee's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=GodEyeTee&theme=react-dark)
-  
-</div>
+
 
 <div align="center">
   <a href="https://github.com/GodEyeTee">
