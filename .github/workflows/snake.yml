@@ -1,50 +1,50 @@
-# วิธีสร้าง Personal Access Token (PAT) สำหรับ GitHub Actions
+# GitHub Action for generating a contribution snake grid
 
-หากการตั้งค่า Workflow permissions เป็น "Read and write permissions" ไม่แก้ไขปัญหา คุณสามารถใช้ Personal Access Token แทนได้ตามขั้นตอนด้านล่าง:
+name: Generate Snake Animation
 
-## 1. สร้าง Personal Access Token
+# Controls when the action will run
+on:
+  # runs automatically every 12 hours
+  schedule:
+    - cron: "0 */12 * * *"
+    
+  # allows to manually run the job at any time
+  workflow_dispatch:
+  
+  # run on every push on the master branch
+  push:
+    branches:
+    - main
+    - master
 
-1. ไปที่ GitHub > คลิกที่รูปโปรไฟล์ของคุณที่มุมขวาบน > Settings
-2. เลื่อนลงไปด้านล่างและคลิก "Developer settings"
-3. คลิก "Personal access tokens" > "Tokens (classic)"
-4. คลิก "Generate new token" > "Generate new token (classic)"
-5. ตั้งชื่อ (Note) เช่น "GitHub Actions - Snake Animation"
-6. เลือกระยะเวลาหมดอายุ (Expiration) ตามต้องการ
-7. เลือกสิทธิ์การเข้าถึง (Scopes):
-   - เลือก `repo` (ทุกอย่างภายใต้ repo)
-   - เลือก `workflow` (ถ้ามี)
-8. คลิก "Generate token"
-9. **สำคัญ**: คัดลอก token ที่สร้างขึ้นมาทันที เพราะคุณจะไม่สามารถดูมันอีกครั้งหลังจากออกจากหน้านี้
+# The sequence of runs in this workflow
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
 
-## 2. เพิ่ม Token เป็น Secret ใน Repository
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      - uses: actions/checkout@v3
 
-1. ไปที่ repository ของคุณ > Settings
-2. คลิก "Secrets and variables" > "Actions"
-3. คลิก "New repository secret"
-4. ใส่ชื่อ (Name): `PAT`
-5. ใส่ค่า (Value): วาง token ที่คัดลอกไว้จากขั้นตอนก่อนหน้า
-6. คลิก "Add secret"
+      # Generates the snake
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: GodEyeTee
+          # snake eating contribution graph options
+          svg_out_path: dist/github-contribution-grid-snake.svg
+          svg_out_path_dark: dist/github-contribution-grid-snake-dark.svg
 
-## 3. แก้ไขไฟล์ workflow
-
-แก้ไขไฟล์ `.github/workflows/snake.yml` โดยเปลี่ยนจาก:
-
-```yaml
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-เป็น:
-
-```yaml
-env:
-  GITHUB_TOKEN: ${{ secrets.PAT }}
-```
-
-## 4. สั่งให้ Workflow ทำงานอีกครั้ง
-
-1. ไปที่ repository ของคุณ > Actions
-2. เลือก workflow "Generate Snake Animation"
-3. คลิก "Run workflow"
-
-หลังจากนี้ workflow ควรจะทำงานได้อย่างถูกต้องและสร้าง snake animation ได้สำเร็จ
+      # Push to GitHub
+      - name: Push changes
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # ถ้าใช้ Personal Access Token แทน
+          # GITHUB_TOKEN: ${{ secrets.PAT }}
