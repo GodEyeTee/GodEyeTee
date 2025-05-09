@@ -33,8 +33,6 @@
   <img src="https://skillicons.dev/icons?i=tensorflow,aws,docker,kubernetes" />
 </p>
 
-<h2 align="center">📈 GitHub Activity</h2>
-
 
 
 <div align="center">
@@ -52,30 +50,9 @@
   </picture>
 </div>
 
-<!-- Dynamic quote -->
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
-</div>
 
-<h2 align="center">🔗 Connect With Me</h2>
 
-<p align="center">
-  <!-- Add your social links here -->
-  <a href="https://github.com/GodEyeTee" target="_blank">
-    <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt=github style="margin-bottom: 5px;" />
-  </a>
-  <!-- Add more social links as needed -->
-</p>
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-<!-- Profile 3D Contrib -->
-<div align="center">
-  <a href="./profile-3d-contrib/profile-night-rainbow.svg">
-    <img width="100%" alt="3D Profile" src="./profile-3d-contrib/profile-night-rainbow.svg">
-  </a>
-</div>
 
 <!-- Footer -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
