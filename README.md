@@ -1,58 +1,82 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=สวัสดี+👋+ฉันคือ+GodEyeTee;Welcome+to+my+GitHub+Profile!&center=true&size=30&color=58a6ff&duration=4000&pause=1000">
-</h1>
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0D1117,1f2937,58a6ff&text=GodEyeTee&fontSize=40&fontColor=ffffff&height=120&animation=twinkling"/>
+</p>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GodEyeTee&theme=react-dark&hide_border=true" width="100%">
-</div>
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Cloud+Native+%E2%80%A2+System+Architect+%E2%80%A2+Developer;Building+scalable+enterprise+solutions+with+AI+🚀;Welcome+to+my+digital+workspace+!&center=true&size=20&color=8b949e&duration=4000&pause=1000&vCenter=true&width=550">
+</h3>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Status-Active%20%E2%9A%A1-58a6ff?style=flat-square" alt="Status"/>
   <a href="https://github.com/GodEyeTee">
-    <img src="https://github-profile-trophy.vercel.app/?username=GodEyeTee&theme=radical&margin-w=15&margin-h=15&no-frame=true&column=7" alt="GodEyeTee's Trophies">
+    <img src="https://komarev.com/ghpvc/?username=GodEyeTee&color=58a6ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
   </a>
 </p>
 
+<br />
+<hr style="border-color: #21262d;" />
+<br />
+
+<h3 align="center">📊 GitHub Analytics</h3>
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GodEyeTee&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=8&hide_border=true&bg_color=0D1117" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GodEyeTee&layout=compact&theme=radical&hide=html,css&langs_count=8&border_radius=8&hide_border=true&bg_color=0D1117" />
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="center" valign="top" style="border: none; padding: 5px;">
+        <img height="165em" src="https://github-readme-stats.vercel.app/api?username=GodEyeTee&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=00000000" />
+      </td>
+      <td align="center" valign="top" style="border: none; padding: 5px;">
+        <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GodEyeTee&layout=compact&theme=transparent&hide=html,css&langs_count=6&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=00000000" />
+      </td>
+    </tr>
+  </table>
+  <br />
+  <img width="85%" src="https://github-readme-streak-stats.herokuapp.com/?user=GodEyeTee&theme=transparent&hide_border=true&title_color=58a6ff&streak_color=58a6ff&text_color=c9d1d9&background=00000000" alt="Streak Stats" />
 </div>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GodEyeTee&theme=radical&hide_border=true&background=0D1117" alt="GodEyeTee's streak" />
-</p>
-
-<h2 align="center">⚡ Tech Stack ⚡</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,python,react,nextjs,flutter,dart,mongodb,c,cpp,cs" />
-</p>
-
-<h2 align="center">🧠 Currently Learning</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,aws,docker,kubernetes" />
-</p>
-
-
+<br />
 
 <div align="center">
-  <a href="https://github.com/GodEyeTee">
-    <img src="https://komarev.com/ghpvc/?username=GodEyeTee&color=blueviolet&style=for-the-badge" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GodEyeTee&theme=react-dark&hide_border=true&area=true&bg_color=0D1117" width="95%">
 </div>
 
-<!-- Snake animation -->
+<br />
+<hr style="border-color: #21262d;" />
+<br />
+
+<h3 align="center">🚀 Core Tech Stack</h3>
+<p align="center"><strong>Languages & Frameworks</strong></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,react,nextjs,flutter,dart,c,cpp,cs" />
+</p>
+
+<p align="center"><strong>Databases & Tools</strong></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mongodb,supabase,vscode" />
+</p>
+
+<br />
+
+<h3 align="center">🧠 Currently Exploring</h3>
+<p align="center"><strong>Cloud Native & AI Infrastructure</strong></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,tensorflow" />
+</p>
+
+<br />
+<hr style="border-color: #21262d;" />
+<br />
+
+<h3 align="center">🪱 Contributions in Motion</h3>
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GodEyeTee/GodEyeTee/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GodEyeTee/GodEyeTee/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/GodEyeTee/GodEyeTee/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/GodEyeTee/GodEyeTee/output/github-contribution-grid-snake-dark.svg" width="95%" />
   </picture>
 </div>
 
+<br />
 
-
-
-
-<!-- Footer -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
+<p align="center">
+  <img width="30%" src="https://capsule-render.vercel.app/api?type=rect&color=58a6ff&height=3&section=footer"/>
+</p>
